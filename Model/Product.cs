@@ -5,6 +5,7 @@ namespace mobile_api.Model
         public int ID{get; set;}
         public string Name {get; set;}
         public double Price {get; set;}
-        public string ProductType{get; set;}
+        public int ProductCategoryID{get; set;}
+        public ProductCategory ProductCategory {get; set;}
     }
 }
